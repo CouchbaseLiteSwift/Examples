@@ -14,14 +14,13 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		let allPeople = CLSQuery<Person>()
+		let adultPeople = CLSQuery<Person>().conditions("age > 18")
+		
+		print("\(adultPeople.count) of \(allPeople.count) people are older than 18:")
+		for person in adultPeople{
+			print(person.givenName!,person.familyName!)
+		}
 	}
-
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
-
 }
-

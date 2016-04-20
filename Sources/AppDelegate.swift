@@ -17,36 +17,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool{
 		
-//		CLSDatabase.defaultConfiguration = {
-//			let configuration = CLSDatabase.defaultConfiguration
-//			
-//			configuration.databaseSetup = { (database: CLSDatabase) throws in
-//				if CLSQuery<CLSModel>(database: database).isEmpty {
-//					try Person.create(database,from: [
-//						"givenName": "Bibi",
-//						"familyName": "Blocksberg",
-//						"age": 14
-//						]).save()
-//				}
-//			}
-//			
-//			return configuration
-//			}()
-		
-		let database = CLSDatabase.defaultDatabase()
-		
-		do{
-			try Person.create(database,from: [
-				"givenName": "Bibi",
-				"familyName": "Blocksberg",
-				"age": 14
-				]).save()
+		CLSDatabase.defaultConfiguration = {
+			let configuration = CLSDatabase.defaultConfiguration
+			configuration.schemaVersion = 1
 			
-			print(CLSQuery<CLSModel>(database: database).count)
+			configuration.databaseSetup = { (database: CLSDatabase) throws in
+				if CLSQuery<CLSModel>(database: database).isEmpty {
+					try Person.create(database,from: [
+						"givenName": "Bibi",
+						"familyName": "Blocksberg",
+						"age": 14
+						]).save()
+					
+					try Person.create(database,from: [
+						"givenName": "Marco",
+						"familyName": "Betschart",
+						"age": 28
+						]).save()
+					
+					try Person.create(database,from: [
+						"givenName": "Hugh",
+						"familyName": "Hefner",
+						"age": 90
+						]).save()
+				}
+			}
 			
-		} catch let error as NSError{
-			print(error)
-		}
+			return configuration
+			}()
 		
 		return true
 	}

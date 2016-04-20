@@ -1,0 +1,3 @@
+[submodule "Vendors/CouchbaseLiteSwift"]
+	path = Vendors/CouchbaseLiteSwift
+	url = https://gitlab.com/couchbaseliteswift/framework.git
