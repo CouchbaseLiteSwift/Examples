@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "961968A1BB310BFA93C6DC9DE929A057750A4CD8",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -7,6 +8,7 @@
     "71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608" : 0,
     "0AC3EB375FB7E64B979757FB6054FD584EBAD5B4" : 0,
     "95BD7FD70F525D599BE3B03B349FA96B7F09E4A7" : 0,
+    "961968A1BB310BFA93C6DC9DE929A057750A4CD8" : 0,
     "04101981B66E318109934C9516F88D824BB96459" : 0,
     "073B5630A41468111630CB02A17BF6B9B89CE1A3" : 0,
     "EDD5A95C0B9BA456AC83DA491C4680B9358547CF" : 0,
@@ -22,6 +24,7 @@
     "71CFC0DE1DEFC877B0C5B9F98B971EBA2921D608" : "CouchbaseLiteSwiftExample\/Vendors\/CouchbaseLiteSwift\/Vendors\/couchbase-lite-ios\/vendor\/CocoaHTTPServer\/",
     "0AC3EB375FB7E64B979757FB6054FD584EBAD5B4" : "CouchbaseLiteSwiftExample\/Vendors\/CouchbaseLiteSwift\/",
     "95BD7FD70F525D599BE3B03B349FA96B7F09E4A7" : "CouchbaseLiteSwiftExample\/Vendors\/CouchbaseLiteSwift\/Vendors\/couchbase-lite-ios\/vendor\/CBForest\/",
+    "961968A1BB310BFA93C6DC9DE929A057750A4CD8" : "CouchbaseLiteSwiftExample\/",
     "04101981B66E318109934C9516F88D824BB96459" : "CouchbaseLiteSwiftExample\/Vendors\/CouchbaseLiteSwift\/Vendors\/couchbase-lite-ios\/vendor\/fmdb\/",
     "073B5630A41468111630CB02A17BF6B9B89CE1A3" : "CouchbaseLiteSwiftExample\/Vendors\/CouchbaseLiteSwift\/Vendors\/couchbase-lite-ios\/vendor\/CBForest\/vendor\/forestdb\/",
     "EDD5A95C0B9BA456AC83DA491C4680B9358547CF" : "CouchbaseLiteSwiftExample\/Vendors\/CouchbaseLiteSwift\/Vendors\/couchbase-lite-ios\/vendor\/BLIP\/vendor\/MYUtilities\/",
@@ -69,6 +72,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/couchbaselabs\/cbforest.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95BD7FD70F525D599BE3B03B349FA96B7F09E4A7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "gitlab.com:couchbaseliteswift\/examples.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "961968A1BB310BFA93C6DC9DE929A057750A4CD8"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/couchbaselabs\/ios-oauthconsumer.git",
