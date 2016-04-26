@@ -16,11 +16,6 @@
 		798EA6C91CC633A200E1F359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798EA6C71CC633A200E1F359 /* LaunchScreen.storyboard */; };
 		798EA6D41CC633A200E1F359 /* CouchbaseLiteSwiftExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798EA6D31CC633A200E1F359 /* CouchbaseLiteSwiftExampleTests.swift */; };
 		798EA6ED1CC6353C00E1F359 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798EA6EC1CC6353C00E1F359 /* Person.swift */; };
-		79EEA5691CC716B600F6E030 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798EA6FA1CC6379F00E1F359 /* CFNetwork.framework */; };
-		79EEA56A1CC716BC00F6E030 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798EA6FC1CC637A300E1F359 /* Security.framework */; };
-		79EEA56B1CC716D400F6E030 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 798EA7021CC637C000E1F359 /* libz.tbd */; };
-		79EEA56C1CC716DA00F6E030 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 798EA7001CC637B700E1F359 /* libsqlite3.tbd */; };
-		79EEA56D1CC716E600F6E030 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798EA6FE1CC637AC00E1F359 /* SystemConfiguration.framework */; };
 		79EEA5901CC726FF00F6E030 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 79EEA58F1CC726FF00F6E030 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -61,11 +56,6 @@
 		798EA6D31CC633A200E1F359 /* CouchbaseLiteSwiftExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouchbaseLiteSwiftExampleTests.swift; sourceTree = "<group>"; };
 		798EA6D51CC633A300E1F359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		798EA6EC1CC6353C00E1F359 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
-		798EA6FA1CC6379F00E1F359 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		798EA6FC1CC637A300E1F359 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		798EA6FE1CC637AC00E1F359 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		798EA7001CC637B700E1F359 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		798EA7021CC637C000E1F359 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		79EEA58F1CC726FF00F6E030 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,11 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79EEA56D1CC716E600F6E030 /* SystemConfiguration.framework in Frameworks */,
-				79EEA56C1CC716DA00F6E030 /* libsqlite3.tbd in Frameworks */,
-				79EEA56B1CC716D400F6E030 /* libz.tbd in Frameworks */,
-				79EEA56A1CC716BC00F6E030 /* Security.framework in Frameworks */,
-				79EEA5691CC716B600F6E030 /* CFNetwork.framework in Frameworks */,
 				796B5F051CCF4FF4000B1809 /* CouchbaseLite.framework in Frameworks */,
 				796B5F061CCF4FF4000B1809 /* CouchbaseLiteSwift.framework in Frameworks */,
 			);
@@ -148,11 +133,6 @@
 		798EA7061CC637EB00E1F359 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				798EA7021CC637C000E1F359 /* libz.tbd */,
-				798EA7001CC637B700E1F359 /* libsqlite3.tbd */,
-				798EA6FE1CC637AC00E1F359 /* SystemConfiguration.framework */,
-				798EA6FC1CC637A300E1F359 /* Security.framework */,
-				798EA6FA1CC6379F00E1F359 /* CFNetwork.framework */,
 				796B5F011CCF4FCD000B1809 /* CouchbaseLite.framework */,
 				796B5F021CCF4FCD000B1809 /* CouchbaseLiteSwift.framework */,
 			);
