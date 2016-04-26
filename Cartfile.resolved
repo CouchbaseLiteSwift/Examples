@@ -1,0 +1,2 @@
+github "couchbase/couchbase-lite-ios" "0987c27d239a5c30ccb5a9c8798db22eac5879b8"
+git "https://gitlab.com/couchbaseliteswift/framework.git" "c42bc0100a4c2b0e93c1b7ea3aa9ab320381ccb2"
