@@ -1,1 +1,1 @@
-git "https://gitlab.com/couchbaseliteswift/framework.git" "master"
+git "https://gitlab.com/couchbaseliteswift/framework.git" ~> 0.1
