@@ -1,3 +1,7 @@
+# !! DEPRECATED !!
+
+This repository is no longer actively maintained.
+
 # Installation
 
 ```
